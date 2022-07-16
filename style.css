@@ -1,17 +1,41 @@
-body{
-    background-color: purple;
-    color: burlywood;
+body {
+    background-color: blueviolet;
+    color:black;
     padding: 10px;
+    margin-left: 15%;
+    margin-right: 15%;
+    font-family:'Courier New', Courier, monospace;
+
+}
+p {
+    padding:10px;
+    border-radius:15%;
+    background-color:honeydew;
 }
 
-#image {
+#picture {
     float: left;
 }
 
 #description {
     float: right;
+    width: 50%;
+
+}
+
+#name {
+    font-weight: bold;
 }
 
 #reviews {
     clear: both;
+    margin-top: 30px;
+    padding-top: 30px;
+   
+}
+
+#review {
+    padding:10px;
+    border-radius:15%;
+    background-color:honeydew;
 }
